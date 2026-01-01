@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackathon 02</title>
+
+  <!-- Google / Icon Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script src="tailwind.config.js"></script>
+
+
+</head>
+
+<body class="font-sans overflow-x-hidden">
+
+<!-- navbar -->
+<div class="w-full h-[40px]  px-14 md:px-20 py-2">
+  <nav class="flex justify-between items-center">
+    
+    <div class="flex-shrink-0">
+      <img src="./images/logo.png" alt="" class="w-[150px]">
+    </div>
+
+    <!-- mobile-menu -->
+
+    <button 
+      id="menu-btn"
+      class="md:hidden flex flex-col gap-1 focus:outline-none"
+    >
+      <span class="w-6 h-[2px] bg-black"></span>
+      <span class="w-6 h-[2px] bg-black"></span>
+      <span class="w-6 h-[2px] bg-black"></span>
+    </button>
+    <div 
+    id="mobile-menu"
+    class="hidden md:hidden absolute top-[60px] left-0 w-full bg-yellow-100 shadow-lg"
+  >
+    <ul class="flex flex-col gap-6 px-8 py-6">
+      <li><a href="#" class="text-[18px]">About</a></li>
+      <li><a href="#" class="text-[18px]">Servicing</a></li>
+      <li><a href="#" class="text-[18px]">Prices</a></li>
+      <li><a href="#" class="text-[18px]">Blog</a></li>
+      <li>
+        <button class="bg-black text-white w-full h-[40px]">
+          Sign In
+        </button>
+      </li>
+    </ul>
+  </div>
+    <!-- mobile-menu -->
+
+    <div class="hidden md:flex items-center justify-between w-full ml-10">
+
+      <!-- Nav Links -->
+      <ul class="flex gap-10 justify-center flex-1">
+        <li><a href="#" class="text-[18px]">About</a></li>
+        <li><a href="#" class="text-[18px]">Servicing</a></li>
+        <li><a href="#" class="text-[18px]">Prices</a></li>
+        <li><a href="#" class="text-[18px]">Blog</a></li>
+      </ul>
+
+      <!-- Sign In Button -->
+      <button class="hidden xl:flex items-center justify-center bg-black text-white w-[150px] h-[38px]">
+        Sign In
+      </button>
+
+    </div>
+
+  </nav>
+</div>
+
+<!-- navbar -->
+
+<!-- zero section -->
+<div class="w-[90vw] px-[50px] mt-[80px] ">
+  <div class="flex justify-center items-center lg:flex-row flex-col gap-[10px] max-[970px]:gap-0">
+    <div class="flex flex-col gap-10 w-[60vw]  max-[970px]:w-full">
+      <span class="text-[50px] leading-none font-bold max-[590px]:text-[40px] max-[395px]:text-[35px]">
+        Streamlining your journey to digital dominance.
+      </span>
+      <p class="text-[24px] pr-[80px] font-normal max-[590px]:text-[22px] max-[395px]:text-[18px]">
+        Streamlining your journey to digital dominance. Effortless hosting solutions for a seamless online presence.
+      </p>
+      <button class="bg-black text-white w-[220px] h-[45px]">
+        Start 10-days free trail
+      </button>
+    </div>
+
+    <div class="w-[40vw] flex justify-center ">
+      <img src="images/idea-launch 1.png" class="w-full " alt="">
+    </div>
+  </div>
+</div>
+<!-- zero section -->
+
+<!-- section01 -->
+<div class="w-full mt-20 ">
+  <div class="flex flex-wrap justify-center gap-10  ml-5 w-[95vw] max-[815px]:ml-[10px]">
+    
+    <div class="border p-5 hover:shadow-lg hover:scale-105 border-gray-300">
+      <div class="w-[22rem] h-[28vh]">
+        <div class="w-full">
+          <div class="flex items-center gap-2 h-[60px]">
+            <img src="images/image 1.png" alt="">
+            <span class="text-[25px]">Seamless Integration</span>
+          </div>
+          <p class="mt-5 text-[14px]">
+            HostEase offers seamless integration of hosting and domain management services, providing users with a unified platform to effortlessly manage their online presence.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border p-5 hover:shadow-lg hover:scale-105 border-gray-300">
+      <div class="w-[22rem] h-[28vh]">
+        <div class="w-full">
+          <div class="flex items-center gap-2 h-[60px]">
+            <img src="images/image 2.png" alt="">
+            <span class="text-[25px]">Innovation in Simplicity</span>
+          </div>
+          <p class="mt-5 text-[14px]">
+            We pride ourselves on innovative solutions that prioritize simplicity without compromising on performance or security.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border p-5 hover:shadow-lg hover:scale-105 border-gray-300">
+      <div class="w-[22rem] h-[28vh]">
+        <div class="w-full">
+          <div class="flex items-center gap-2 h-[60px]">
+            <img src="images/image 3.png" alt="">
+            <span class="text-[25px]">Personalized Support</span>
+          </div>
+          <p class="mt-5 text-[14px]">
+            Our dedicated 24/7 support team goes the extra mile to provide personalized assistance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- section01 -->
+
+<!-- section02 -->
+<div class="w-full px-[50px] mt-20 mx-auto">
+  <div class="w-full flex flex-wrap">
+    <div class="w-full lg:w-[40vw] flex justify-center items-center h-full">
+      <img src="images/business-success-chart 1.png" class="w-[60vw] lg:w-full h-[80vh] " alt="">
+    </div>
+
+    <div class="w-full lg:w-[50vw] p-[40px_60px]">
+      <span class="text-[60px] leading-none font-bold max-[665px]:text-[40px] max-[590px]:text-[34px]">
+        Secure web hosting that grows with your business
+      </span>
+      <p class="text-[22px] max-[665px]:text-[17px] max-[590px]:text-[16px] max-[395px]:text-[15px]">
+        Our secure web hosting services are designed to evolve seamlessly alongside your business.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- section02 -->
+
+<!-- section03 -->
+<div class="w-full mt-20">
+  <div class="flex justify-center w-[90vw] mx-auto">
+    <div class="flex justify-center items-center flex-wrap gap-[100px] w-[80vw] max-[1152px]:gap-5">
+      <div class="border-2 border-black hover:bg-yellow-100 hover:shadow-lg hover:scale-105 rounded-[20px] w-[18rem] h-fit p-5">
+        <span class="text-[40px]">#01</span>
+        <span class="block text-[20px] mt-2">Seamless Integration</span>
+        <p class="text-[14px] mt-4 pr-10">
+          HostEase offers seamless integration of hosting effortlessly manage their online presence.
+        </p>
+      </div>
+
+      <div class="border-2 border-black hover:bg-yellow-100 hover:shadow-lg hover:scale-105 rounded-[20px] w-[18rem] h-fit p-5">
+        <span class="text-[40px]">#02</span>
+        <span class="block text-[20px] mt-2">Seamless Integration</span>
+        <p class="text-[14px] mt-4 pr-10">
+          HostEase offers seamless integration of hosting effortlessly manage their online presence.
+        </p>
+      </div>
+
+      <div class="border-2 border-black hover:bg-yellow-100 hover:shadow-lg hover:scale-105 rounded-[20px] w-[18rem] h-fit p-5">
+        <span class="text-[40px]">#03</span>
+        <span class="block text-[20px] mt-2">Seamless Integration</span>
+        <p class="text-[14px] mt-4 pr-10">
+          HostEase offers seamless integration of hosting effortlessly manage their online presence.
+        </p>
+      </div>
+      <div class="border-2 border-black hover:bg-yellow-100 hover:shadow-lg hover:scale-105 rounded-[20px] w-[18rem] h-fit p-5">
+        <span class="text-[40px]">#04</span>
+        <span class="block text-[20px] mt-2">Seamless Integration</span>
+        <p class="text-[14px] mt-4 pr-10">
+          HostEase offers seamless integration of hosting effortlessly manage their online presence.
+        </p>
+      </div>
+
+      <div class="border-2 border-black hover:bg-yellow-100 hover:shadow-lg hover:scale-105 rounded-[20px] w-[18rem] h-fit p-5">
+        <span class="text-[40px]">#05</span>
+        <span class="block text-[20px] mt-2">Seamless Integration</span>
+        <p class="text-[14px] mt-4 pr-10">
+          HostEase offers seamless integration of hosting effortlessly manage their online presence.
+        </p>
+      </div>
+
+      <div class="border-2 border-black hover:bg-yellow-100 hover:shadow-lg hover:scale-105 rounded-[20px] w-[18rem] h-fit p-5">
+        <span class="text-[40px]">#06</span>
+        <span class="block text-[20px] mt-2">Seamless Integration</span>
+        <p class="text-[14px] mt-4 pr-10">
+          HostEase offers seamless integration of hosting effortlessly manage their online presence.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section03 -->
+
+<!-- section04 -->
+<div class="w-[98.8vw] mt-[10vh]">
+  <div class="w-[90vw] mx-auto flex flex-wrap justify-between max-[970px]:flex-col gap-10">
+    <span class="text-[40px] font-bold leading-none w-[35vw] max-[970px]:w-full">
+      Sign up for the best web hosting service today!
+    </span>
+
+    <div class="lg:w-[30vw] lg:h-[60px] border-2 border-black flex items-center justify-between sm:w-full">
+      <input type="email" placeholder="Enter Your Email" class="bg-transparent outline-none pl-10 w-[60%]" />
+      <button class="bg-black text-white w-[200px] h-[40px] mr-5 max-[1152px]:w-[150px] text-[13px]">
+        Get Started
+      </button>
+    </div>
+  </div>
+</div>
+<!-- section04 -->
+
+<!-- footer -->
+<footer class="bg-yellow-100 w-[98.8vw] flex flex-col items-center p-8 mt-20">
+  <div class="w-[90vw] flex justify-between max-[970px]:flex-col">
+    <div class="w-[30vw] flex flex-col gap-10 max-[970px]:w-full">
+      <img src="images/logo.png" class="w-[150px]" alt="">
+      <p class="text-[20px] font-ui">
+        Our vision is to empower individuals and businesses to thrive online by providing effortless hosting solutions.
+      </p>
+    </div>
+
+    <div class="w-[40vw] flex gap-[60px] justify-end text-right max-[970px]:w-full max-[970px]:flex-col max-[970px]:items-center">
+      <div class="flex flex-col gap-5">
+        <a class="text-[22px]">Quick Menu</a>
+        <a>Newsletter</a>
+        <a>Services</a>
+        <a>Community</a>
+        <a>Pricing</a>
+      </div>
+      <div class="flex flex-col gap-5">
+        <a class="text-[22px]">Resources</a>
+        <a>About</a>
+        <a>Forums</a>
+        <a>Blog</a>
+        <a>Jobs</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-[90vw] flex justify-between items-center mt-10 max-[590px]:flex-col gap-8">
+    <p>@ 2024 Host Ease All Rights Reserved</p>
+    <div class="flex gap-5">
+      <img src="images/Vector (1).png" class="w-[30px] h-[30px]" alt="">
+      <img src="images/Vector (2).png" class="w-[30px] h-[30px]" alt="">
+      <img src="images/Vector (3).png" class="w-[30px] h-[30px]" alt="">
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+
+
+  <script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+  
+</body>
+</html>
